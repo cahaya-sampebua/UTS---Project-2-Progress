@@ -34,6 +34,7 @@ export default function Navigasi() {
             <Navbar expand="lg"  className="bg-dark navbar-dark" sticky="top">
                 <Container fluid>
                     {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
+                    <span className="me-3 text-light">Sinefilia Movie</span>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
