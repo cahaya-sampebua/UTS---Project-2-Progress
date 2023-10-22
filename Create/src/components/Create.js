@@ -174,7 +174,7 @@ const Create = () => {
             onChange={(e) => setImage(e.target.files[0])}
           />
         </FormGroup>
-        <Button type="submit">Update</Button>
+        <Button type="submit">Create</Button>
       </Form>
     </div>
   );
