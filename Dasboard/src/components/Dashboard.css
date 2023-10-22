@@ -1,0 +1,92 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0; /* Background color for the entire dashboard */
+  padding: 20px; /* Add some padding for better spacing */
+  border-radius: 10px; /* Add rounded corners to the dashboard */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.search-bar input {
+  width: 30%; /* Make the search input wider */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  background-color: #007bff; /* Add a blue background color to the Create button */
+  color: #fff; /* Text color for the Create button */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+.table-container {
+  flex: 1;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff; /* White background for the table */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff; /* Header background color */
+  color: #fff; /* Header text color */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+tr:hover {
+  background-color: #ddd; /* Change row background color on hover */
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8; /* Reduce opacity on button hover */
+}
+
+/* Style for the Logout button */
+.nav-link-logout {
+  background-color: #ff5555; /* Red background color for Logout button */
+  color: #fff; /* Text color for Logout button */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-link-logout:hover {
+  background-color: #339cff; /* Change the background color on hover */
+}
