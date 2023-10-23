@@ -26,18 +26,12 @@ const Dashboard = () => {
   }, []);
 
   const handleSearch = (event) => {
-    // Set search term
     setSearchTerm(event.target.value);
   };
 
   const handleCreate = () => {
-    // Create new data
-    const newData = {
-      no: data.length + 1,
-      title: "Judul Film Baru",
-      genre: "Action",
-    };
-    setData([...data, newData]);
+    // Mengosongkan nilai inputan
+    setSearchTerm(""); // Mengosongkan nilai pencarian
   };
 
   const handleDelete = (no) => {
@@ -95,7 +89,9 @@ const Dashboard = () => {
               <Navbar.Brand>Dashboard</Navbar.Brand>
             </Nav>
             <Nav>
-            <Nav.Link className="nav-link-logout" onClick={logout}>Logout</Nav.Link>
+              <Nav.Link className="nav-link-logout" onClick={logout}>
+                Logout
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
