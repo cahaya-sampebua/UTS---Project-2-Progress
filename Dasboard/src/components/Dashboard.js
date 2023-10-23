@@ -78,7 +78,7 @@ const Dashboard = () => {
 
   return (
     <Container>
-      <Navbar bg="white" variant="">
+      <Navbar bg="white" variant="white">
         <Container>
           <Navbar.Brand>Halo Admin</Navbar.Brand>
           <Navbar.Toggle />
