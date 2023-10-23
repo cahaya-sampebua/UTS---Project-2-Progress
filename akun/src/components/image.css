@@ -1,0 +1,11 @@
+.gambar{
+    width: 160px;
+    height:140px;
+    border-radius: 150px;
+}
+
+.gbr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
