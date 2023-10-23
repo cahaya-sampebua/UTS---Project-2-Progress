@@ -1,0 +1,15 @@
+.kotak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.warna{
+    background-color: black;
+    border-radius:20px ;
+}
+
+.ket{
+    color: #ffff;
+}
