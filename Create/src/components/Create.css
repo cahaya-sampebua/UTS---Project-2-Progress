@@ -88,3 +88,21 @@ button:hover {
   color: #dc3545;
 }
 
+
+/* Tombol "Kembali" */
+#back-button {
+  background-color: #6c757d; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  padding: 5px 12px; /*ukuran padding */
+  border-radius: 10px; /* Tambahkan sudut bulat */
+  margin-right: 10px; /* Jarak antara tombol "Kembali" dan "Create" */
+}
+
+/* Tombol "Keluar" */
+#exit-button {
+  background-color: #dc3545; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  
+  padding: 5px 12px; /* ukuran padding */
+  border-radius: 5px; /* Tambahkan sudut bulat */
+}
